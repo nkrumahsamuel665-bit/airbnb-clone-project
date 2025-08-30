@@ -72,4 +72,13 @@ covering backend, database management and deployment.
 - A *Property* can have multiple *Bookings*.  
 - A *Booking* belongs to one *User* and one *Property*.  
 - A *Review* is written by a *User* for a specific *Property*.  
-- A *Payment* is tied to one *Booking*.  
+- A *Payment* is tied to one *Booking*.
+
+  ## Technology Stack  
+
+- *Django* – Backend framework for building the application logic and APIs.  
+- *PostgreSQL* – Relational database to store users, properties, bookings, and payments.  
+- *GraphQL* – Enables flexible and efficient data queries between frontend and backend.  
+- *React* – Frontend library for building a user-friendly and interactive interface.  
+- *Docker* – Used for containerization and easy deployment.  
+- *Git & GitHub* – For version control and collaboration.
