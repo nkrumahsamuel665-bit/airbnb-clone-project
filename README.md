@@ -22,7 +22,7 @@ covering backend, database management and deployment.
 ## Author
 - Samuel Nkrumah (nkrumahsamuel665-bit)
 
-## Team roles
+# Team roles
 - **Project manager**
 -  -The project manager oversees the entire project.
 - **Backend developer**
