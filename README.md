@@ -1,4 +1,4 @@
-# airbnb-clone-project
+## airbnb-clone-project
 A  simplified AirBnB clone built to practice full-stuck web development.
 ## Overview
 This project is a simplified clone of the AirBnB platform.  
@@ -27,7 +27,6 @@ covering backend, database management and deployment.
 -  -The project manager oversees the entire project.
 - **Backend developer**
 - -The back-end developer is responsible for building and managing the server-side of the AirBnB Clone.
-- -They makes the application functional,authentic, secure, and efficient behind the scenes.
 -**Database administrator**
   -They ensure that the data backbone of the AirBnB Clone is reliable, secure, and efficient.
 -**UI/UX Designer**
