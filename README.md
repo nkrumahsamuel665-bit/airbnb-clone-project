@@ -28,3 +28,48 @@ covering backend, database management and deployment.
 - **Database administrator** -They ensure that the data backbone of the AirBnB Clone is reliable, secure, and efficient.
 - **UI/UX Designer** -They create mockups and wireframes for a user-friendly experience
 - **DevOps Engineer** -They handle deployment(docker) -They ensure scalability ,monitoring and system reliability.
+
+## Database Design  
+### Key Entities and Fields  
+
+1. *Users*  
+   - id 
+   - name  
+   - email  
+   - password  
+   - date_joined  
+
+2. *Properties*  
+   - id   
+   - title  
+   - description  
+   - location  
+   - price_per_night  
+
+3. *Bookings*  
+   - id   
+   - start_date  
+   - end_date  
+   - status (e.g., confirmed, pending, canceled)  
+
+4. *Reviews*  
+   - id  
+   - rating  
+   - comment  
+   - date_posted  
+
+5. *Payments*  
+   - id   
+   - amount  
+   - payment_method  
+   - payment_status  
+   - date_paid  
+
+
+### Entity Relationships  
+
+- A *User* can own multiple *Properties*.  
+- A *Property* can have multiple *Bookings*.  
+- A *Booking* belongs to one *User* and one *Property*.  
+- A *Review* is written by a *User* for a specific *Property*.  
+- A *Payment* is tied to one *Booking*.  
