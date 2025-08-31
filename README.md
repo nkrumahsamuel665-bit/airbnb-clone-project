@@ -122,3 +122,17 @@ Sensitive data, like passwords and payment details, will be encrypted in storage
 ### 5. Input Validation & Sanitization  
 All inputs will be validated to prevent injection attacks (e.g., SQL injection, XSS).  
 ➡ This ensures the database and system remain secure.
+
+## CI/CD Pipeline  
+CI/CD pipeline is the continuous Integration and Continuous Deployment (CI/CD) pipelines which automate the process of testing, building, and deploying the application. They help ensure that new changes are integrated smoothly, tested automatically, and deployed with minimal errors.  
+
+### Why CI/CD is Important  
+- *Reliability:* Ensures code changes are tested before reaching production.  
+- *Speed:* Automates repetitive tasks, reducing deployment time.  
+- *Collaboration:* Helps multiple developers work on the project without conflicts.  
+- *Consistency:* Ensures each deployment follows the same process, reducing human error.  
+
+### Tools We Can Use  
+- *GitHub Actions:* Automates testing and deployment directly from GitHub.  
+- *Docker:* Ensures consistent environments across development and production.  
+- *Heroku/AWS:* Can be used as hosting platforms for deploying the application.
