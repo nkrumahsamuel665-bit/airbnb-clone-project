@@ -99,3 +99,26 @@ Allow guests leave reviews and ratings for properties they have booked. This fea
 
 ### 5. Payment Integration  
 Supports secure processing of payments between guests and hosts. It ensures smooth financial transactions and booking confirmations.
+
+## API Security  
+To ensure the safety of users and the integrity of the platform, the backend APIs will implement the following security measures:  
+
+### 1. Authentication  
+Only registered users can access protected endpoints using secure login credentials or tokens.  
+➡ This protects user accounts and ensures only verified users interact with the system.  
+
+### 2. Authorization  
+Different roles (e.g., host, guest, admin) will have specific permissions.  
+➡ This prevents unauthorized access, such as a guest trying to manage properties they do not own.  
+
+### 3. Rate Limiting  
+Limits the number of requests a user or client can make within a set time.  
+➡ This protects the system against abuse and denial-of-service (DoS) attacks.  
+
+### 4. Data Encryption  
+Sensitive data, like passwords and payment details, will be encrypted in storage and during transfer.  
+➡ This ensures privacy and protects financial transactions.  
+
+### 5. Input Validation & Sanitization  
+All inputs will be validated to prevent injection attacks (e.g., SQL injection, XSS).  
+➡ This ensures the database and system remain secure.
