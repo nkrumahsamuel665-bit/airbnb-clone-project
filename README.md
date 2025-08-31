@@ -88,10 +88,10 @@ covering backend, database management and deployment.
 ### 1. User Management  
 Handles user registration, login, and profile management. This feature ensures secure authentication and allows users to manage their personal information.  
 
-### 3. Booking System  
+### 2. Booking System  
 Allow guests to search for properties, check availability, and make reservations. It connects users with hosts and manages booking confirmations.  
 
-### 2. Property Management  
+### 3. Property Management  
 Enable hosts to list, update, and manage their properties. This feature ensures accurate property details, pricing, and availability for guests.  
 
 ### 4. Reviews & Ratings  
