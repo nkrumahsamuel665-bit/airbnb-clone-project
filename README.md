@@ -100,7 +100,7 @@ Allow guests leave reviews and ratings for properties they have booked. This fea
 ### 5. Payment Integration  
 Supports secure processing of payments between guests and hosts. It ensures smooth financial transactions and booking confirmations.
 
-## API Security  
+  ## API Security  
 To ensure the safety of users and the integrity of the platform, the backend APIs will implement the following security measures:  
 
 ### 1. Authentication  
@@ -123,7 +123,7 @@ Sensitive data, like passwords and payment details, will be encrypted in storage
 All inputs will be validated to prevent injection attacks (e.g., SQL injection, XSS).  
 ➡ This ensures the database and system remain secure.
 
-## CI/CD Pipeline  
+  ## CI/CD Pipeline  
 CI/CD pipeline is the continuous Integration and Continuous Deployment (CI/CD) pipelines which automate the process of testing, building, and deploying the application. They help ensure that new changes are integrated smoothly, tested automatically, and deployed with minimal errors.  
 
 ### Why CI/CD is Important  
